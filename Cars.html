@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .about, .spotting, .contact {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #444;
+        }
+        .spotting {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .spotting-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .spotting-item img {
+            width: 100%;
+            height: auto;
+        }
+        
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    
+    <nav>
+        <a href="file:///F:/PERSONAL/laksh/VS%20CODE/HTML/index.html">Home</a>
+	    <b><a href="file:///F:/PERSONAL/laksh/VS%20CODE/HTML/Cars.html">Cars</a></b>
+        <a href="file:///F:/PERSONAL/laksh/VS%20CODE/HTML/Flex.html">Resume</a>
+        <a href="file:///F:/PERSONAL/laksh/VS%20CODE/HTML/Contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Hello Automobile Enthusiast!!!</h2>
+            <br><br><br>
+        </section>
+        <section id="spotting" class="spotting"><br><br><br>
+            
+            <center><h2>SUPERCARS</h2></center><br><br><br><br>
+            
+            <div class="spotting-item">
+		        <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/39232/911-exterior-right-front-three-quarter-154382.jpeg?isig=0&wm=1&q=80">
+                <h4>Porsche 911</h4>
+            </div>
+		
+            <div class="spotting-item">
+                <img src="https://imgd.aeplcdn.com/664x374/ec/87/2F/14054/img/m/Lamborghini-Huracan-Right-Front-Three-Quarter-50922_ol.jpg?t=172810727&t=172810727&q=80">
+                <h4>Lamborghini Huracan Performante</h4>
+            </div>
+            <div class="spotting-item">
+                <img src="https://imgd.aeplcdn.com/664x374/cw/ec/21724/Audi-R8-Right-Front-Three-Quarter-66713.jpg?v=201711021421&q=80">
+                <h4>Audi R8</h4>
+            </div>
+            <div class="spotting-item">
+                <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/30181/phantom-exterior-right-front-three-quarter.jpeg?isig=0&q=80">
+                <h4>Rolls Royce Phantom</h4>
+            </div>
+            <div class="spotting-item">
+                <img src="https://cdn.bigboytoyz.com/newcar/files/upload/varinat/1601874150965-photos.jpg">
+                <h4>Pagani Huayra Roadster BC</h4>
+            </div>
+            <div class="spotting-item">
+                <img src="https://imgd.aeplcdn.com/642x361/n/cw/ec/56939/right-front-three-quarter0.jpeg?q=80">
+                <h4>AMG 1</h4>
+            </div>
+            
+        </section>
+
+       
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to send me an email at <a href="mailto:lakshshashinv@gmail.com">lakshshashinv@gmail.com</a> or connect with me on social media!</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 LAKSH S. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
